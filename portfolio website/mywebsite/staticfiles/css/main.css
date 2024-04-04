@@ -1,0 +1,67 @@
+body {
+    background-color:rgb(35, 35, 35) !important;
+    font-family: 'Montserrat' !important;
+    color:rgb(204, 204, 204) !important;
+}
+
+#bgvideo {
+    opacity: 15%;
+    top: 0%;
+    width: 100vw;
+    height: 100vh;
+    z-index: -2;
+    position: fixed;
+    object-fit: cover
+}
+
+#profilepic {
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    box-shadow: -4px -3px 45px 21px rgba(0, 0, 0, 0.35);
+}
+
+#profilelink {
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+}
+
+#profilelink:hover {
+    color: rgb(183, 183, 183);
+}
+
+#profilewrap {
+    letter-spacing: 0.4rem;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+#mainprofile {
+    text-align: center;
+    margin: auto;
+    z-index: 999;
+}
+
+#aboutwrap {
+    max-width: 100%;
+    margin: auto;
+    align-items: center;
+    font-size: 2rem;
+}
+
+hr {
+    background-color: white;
+    height: 3px !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold !important;
+}
+
+hr.space-1 {
+    background: transparent;
+    color: transparent;
+    margin: 0;
+    border-style: none;
+    height: 10rem !important;
+  }

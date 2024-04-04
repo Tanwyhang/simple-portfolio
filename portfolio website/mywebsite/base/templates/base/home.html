@@ -1,0 +1,81 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wyhang</title>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+	<link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <video autoplay muted loop id="bgvideo" src="{% static '/images/bg.mp4' %}"></video>
+    <br><br><br><br>
+    <div class="container">
+        
+        <div class="row" id="profilewrap">
+            <div class="col" id="mainprofile">
+                <img src="{% static '/images/profile.jpg' %}" id="profilepic"><br><br>
+                <a id="profilelink" href="https://www.instagram.com/tanwyhang/">@tanwyhang</a><hr class="space-1">
+            </div>
+            
+            <hr class="space-1">
+            
+            <div class="col" id="profiledesc">
+                <div style="align-items: center;">
+                <h1 style="display: inline-block; text-align:start; font-size: 8rem;">Meet Wyhang</h1>
+                </div>
+                    <div style="text-align: center;">
+                        <p style="display: inline-block;text-align:left; font-size:1.7rem;">
+                            I am 18 years old and this is my <br>
+                            first time building a website <br>
+                            for the sake of getting more people<br>
+                            to know Wyhang better!!!!
+                        </p>
+                    </div>
+            </div>
+        </div>
+
+        <hr class="space-1">
+
+        <div class="col" id="aboutwrap">
+            <div class="row-lg-12">
+                <div class="card card-body bg-dark">
+                    <h1>About me</h1>
+                    <hr>
+                    <ul>
+                        <li>INFP !!!</li>
+                        <li>Born 2006</li>
+                        <li>Loves Badminton</li>
+                        <li>enjoys solo travellling </li>
+                        <li>passionate towards Computer Science</li>
+                        <li>Spends free time learning</li>
+                        <li>Likes to capture memories</li>
+                        <li>Lives in MALAYSIA</li>
+                        <li>Loves reading</li>
+                    </ul>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="row-lg-12">
+                <div class="card card-body bg-dark">
+                    <h1>What I can do</h1>
+                    <hr>
+                    <ul>
+                        <li>Compose Music</li>
+                        <li>Sound designing</li>
+                        <li>Generative art</li>
+                        <li>Develop a game (via python)</li>
+                        <li>Create a simple website</li>
+                        <li>Problem solving via algorithms</li>
+                        <li>Photography</li>
+                        <li>Video Editing</li>
+                        <li>Poster designing</li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+</body>
